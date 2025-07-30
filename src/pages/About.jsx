@@ -28,7 +28,7 @@ export default function About() {
             <h2 className="playwrite-au-qld text-center fs-2 my-4">About Transcend World : Beyond the Ordinary</h2>
           </Col>
         </Row>
-        <Row>
+        <Row className="g-4">
           <Col lg={4}>
             <CustomCard img={card1} title="Artic Adventures" />
           </Col>
