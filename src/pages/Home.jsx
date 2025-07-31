@@ -18,8 +18,8 @@ import Hero from "../components/Hero";
 export default function Home() {
   return (
     <>
-      <Container className="py-4">
-        <Row className="g-4">
+      <Container className="py-1">
+        <Row className="g-2 g-md-3">
           {/* Main image: full‑width on xs, half on lg */}
           <Col xs={12} lg={6}>
             <PhotoFrame img={landscape1} />
@@ -27,7 +27,7 @@ export default function Home() {
 
           {/* Nested grid: full‑width on xs, half on lg */}
           <Col xs={12} lg={6}>
-            <Row className="g-4">
+            <Row className="g-2 g-md-3">
               {/* First photo */}
               <Col xs={6} lg={6}>
                 <PhotoFrame img={landscape2} />
@@ -47,7 +47,7 @@ export default function Home() {
             </Row>
           </Col>
         </Row>
-        <Row className="g-4 py-4">
+        <Row className="g-2 g-md-3 py-2 py-md-3">
           <Col xs={4}>
             <PhotoFrame  img={potrait2}/>
           </Col>

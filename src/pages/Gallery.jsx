@@ -22,11 +22,11 @@ export default function Gallery() {
 
                 </ul>
             </div>
-            <div style={{ padding: "50px" }}>
+            <div className='container pt-4' >
                 <ResponsiveMasonry
                     columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
                 >
-                    <Masonry gutter="20px">
+                    <Masonry gutter="30px">
                         {imageGallery.map((src, i) => (
                             <img
                                 key={i}

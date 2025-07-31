@@ -3,9 +3,13 @@ import landscape2 from "../assets/la2.png";
 import landscape3 from "../assets/la3.jpg";
 import landscape4 from "../assets/la4.jpg";
 import landscape5 from "../assets/la5.jpg";
+import landscape6 from "../assets/la6.jpg";
+import landscape7 from "../assets/la7.jpg";
 import potrait1 from "../assets/po1.jpg";
 import potrait2 from "../assets/po2.jpg";
-
+import card1 from "../assets/card1.jpg";
+import card2 from "../assets/card2.jpg";
+import card3 from "../assets/card3.jpg";
 import px1 from "../assets/parallex/px1.jpg";
 import px2 from "../assets/parallex/px2.jpg";
 import px3 from "../assets/parallex/px3.jpg";
@@ -18,6 +22,8 @@ export const imageGallery = [
   landscape3,
   landscape4,
   landscape5,
+  landscape6,
+  landscape7,
   potrait1,
   potrait2,
   px1,
@@ -25,4 +31,7 @@ export const imageGallery = [
   px3,
   px4,
   px5,
+  card1,
+  card2,
+  card3,
 ];
